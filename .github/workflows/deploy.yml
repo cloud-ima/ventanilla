@@ -125,7 +125,7 @@ jobs:
       # ----------------------------------------
       # PASO 3: Ejecutar storage:link automáticamente
       # El script se auto-elimina después de ejecutarse
-      # ---------------------------------------
+      # ----------------------------------------
       - name: Execute Storage Link
         run: |
           echo "Esperando 10 segundos para que el servidor procese los archivos..."
